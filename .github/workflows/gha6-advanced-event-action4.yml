@@ -2,8 +2,8 @@ name: advanced event filters action workflow
 
 on: 
     push:  
-      branches:
-        - 'hotfix' 
+      paths:
+          - '**.js'
 jobs:  
   
   test:
